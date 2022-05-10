@@ -1,0 +1,17 @@
+Course Resources, Code Snapshots & How To Use
+You can find all course resources + instructions on how to use them in this GitHub repository: https://github.com/academind/react-native-practical-guide-code
+
+This repository is organized into branches => Every branch represents a course section and includes the resources that belong to the respective course section.
+
+Provided resources are:
+
+Code snapshots (for you to compare against your code, when coding along)
+
+Slides
+
+Extra resources (e.g., images used in a section)
+
+For usage instructions, please visit the linked repository and read the instructions you find there.
+
+Note:
+CLI - Command Line Interface

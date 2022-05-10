@@ -1,0 +1,8 @@
+WorkFlow of React Native
+Step1:npm install -g expo-cli
+Step2:expo
+Step3:expo init AwesomeProject
+
+cd AwesomeProject
+npm start # you can also use: expo start
+
