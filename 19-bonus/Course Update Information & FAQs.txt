@@ -1,0 +1,46 @@
+Course Update Information & FAQs
+Please also watch the video lecture before this lecture!
+
+---
+
+I completely re-recorded this React Native course to improve its quality and bring it up-to-date with the latest version of React Navigation, a key third-party package that's used in this course (and in most React Native apps) to enable cross-screen navigation.
+
+I also incorporated all the amazing feedback I got from you all. In addition, course demo apps were polished and some new apps were added.
+
+The new course was inserted in front of the old course into this existing course - you therefore get it for free, without enrolling into any new course. For the moment, both the new and the old course make up this overall course. This will change on April 29th, when the old course (sections marked as LEGACY) will be removed. I will, however, provide download links to the old course videos from that date on, so that you're still able to access the old course content after that date.
+
+The new course as the same section (i.e., the same structure) as the old course, but all lectures were re-recorded. Therefore the content, order and number of lectures is NOT the same. It is a new course (that's very similar to the old course) after all.
+
+---
+
+Frequently Asked Questions
+
+-
+
+Why did you update the course?
+
+Please read the text above and / or watch the previous lecture.
+
+Why did you insert the course into this course (instead of creating a new, separate course)?
+
+Because Udemy at the moment, doesn't offer any great way of providing free updates other than the approach I chose here. It was important to me to make the update available for free, hence I went with this approach.
+
+What does that mean for my course progress?
+
+Since many new lectures were inserted, your course progress changed. You can easily re-gain it by manually ticking (completing) the new lectures.
+
+Do I need to go through the old and new courses to get the completion certificate?
+
+Yes, since you must complete all course lectures and to Udemy, this is one big course. You can complete (tick) lectures manually though, you don't need to watch them all. In addition, the old course will be removed on April 29th - then, there'll only be one course in this course (=> the new course).
+
+Why do you plan to remove the old course on April 29th?
+
+For multiple reasons:
+
+Udemy doesn't like "bloated" courses where multiple courses are packed into one course. It's okay temporarily, but not forever
+
+Many students also don't like it, because you typically want to go through one course only (the more recent one, of course)
+
+How should I proceed? Do I have to go through the entire course again?
+
+I talk about that in great detail in the previous lecture, so please take a look at that lecture.
