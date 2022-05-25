@@ -15,14 +15,17 @@ const App = () => {
     ]);
     modalCloseHandler();
   }
+
   function deleteGoalHandler(id) {
     setCourseGoals((currentCourseGoals) => {
       return currentCourseGoals.filter((goal) => goal.id !== id);
     });
   }
+
   function modalOpenHandler() {
     setModalIsVisible(true);
   }
+
   function modalCloseHandler() {
     setModalIsVisible(false);
   }
