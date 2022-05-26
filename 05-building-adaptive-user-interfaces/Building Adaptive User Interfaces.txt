@@ -1,0 +1,3 @@
+Building Adaptive User Interfaces - Adapt to Platform and Device Sizes
+
+In Folder 4, we have created a mini game app, There we have improved Adaptive User Interfaces -- Just Refer it

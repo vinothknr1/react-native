@@ -62,6 +62,7 @@ function App() {
   //App Component JSX
   return (
     <View style={styles.rootScreen}>
+      <StatusBar style="light" />
       <LinearGradient
         colors={[Colors.primary700, Colors.accent500]}
         style={styles.rootScreen}
@@ -75,7 +76,6 @@ function App() {
           <SafeAreaView style={styles.rootScreen}>{screen}</SafeAreaView>
         </ImageBackground>
       </LinearGradient>
-      <StatusBar style="light" />
     </View>
   );
 }

@@ -1,6 +1,6 @@
 //Imports -- Built-in
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Platform } from "react-native";
 
 //Title Component
 const Title = ({ children, style }) => {
@@ -17,7 +17,10 @@ export default Title;
 const styles = StyleSheet.create({
   title: {
     borderColor: "white",
+    // borderWidth: Platform.OS === 'android' ? 2 : 0,
+    //borderWidth: Platform.select({ ios: 0, android: 2 }),
     borderWidth: 2,
+    borderColor: "white",
     color: "white",
     padding: 12,
     textAlign: "center",
