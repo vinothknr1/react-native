@@ -1,5 +1,5 @@
 //Imports -- Bulit-in
-import { StyleSheet, Text, View, Image } from "react-native";
+import { StyleSheet, Text, View, Image, Dimensions } from "react-native";
 import React from "react";
 //Imports -- Custom
 import Title from "../components/ui/Title";
@@ -7,7 +7,7 @@ import Colors from "../constants/color";
 import PrimaryButton from "../components/ui/PrimaryButton";
 
 //GameOverScreen Component
-const GameOverScreen = ({roundsNumber,userNumber,onStartNewGame}) => {
+const GameOverScreen = ({ roundsNumber, userNumber, onStartNewGame }) => {
   //GameOverScreen JSX
   return (
     <View style={styles.rootContainer}>
@@ -19,16 +19,18 @@ const GameOverScreen = ({roundsNumber,userNumber,onStartNewGame}) => {
         />
       </View>
       <Text style={styles.summaryText}>
-        Your phone needed <Text style={styles.highlight}>{roundsNumber}</Text> rounds to
-        guess the number <Text style={styles.highlight}>{userNumber}</Text>.
+        Your phone needed <Text style={styles.highlight}>{roundsNumber}</Text>{" "}
+        rounds to guess the number{" "}
+        <Text style={styles.highlight}>{userNumber}</Text>.
       </Text>
       <PrimaryButton onMyPress={onStartNewGame}>Start New Game</PrimaryButton>
     </View>
   );
 };
-
 export default GameOverScreen;
 
+const deviceWidth = Dimensions.get("window").width;
+//Stylesheets
 const styles = StyleSheet.create({
   rootContainer: {
     flex: 1,
@@ -37,9 +39,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   imageContainer: {
-    width: 300,
-    height: 300,
-    borderRadius: 150,
+    width: deviceWidth < 380 ? 150 : 300,
+    height: deviceWidth < 380 ? 150 : 300,
+    borderRadius: deviceWidth < 380 ? 75 : 150,
     borderWidth: 3,
     borderColor: Colors.primary800,
     overflow: "hidden",

@@ -1,8 +1,12 @@
-import { StyleSheet, Text, View } from "react-native";
+//Imports -- Built-in
 import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+//Imports -- Custom
 import Colors from "../../constants/color";
 
+//GuessLogItem Component
 function GuessLogItem({ roundNumber, guess }) {
+  //GuessLogItem JSX
   return (
     <View style={styles.listItem}>
       <Text style={styles.itemText}>#{roundNumber}</Text>
@@ -10,9 +14,9 @@ function GuessLogItem({ roundNumber, guess }) {
     </View>
   );
 }
-
 export default GuessLogItem;
 
+//Stylesheet
 const styles = StyleSheet.create({
   listItem: {
     borderColor: Colors.primary800,

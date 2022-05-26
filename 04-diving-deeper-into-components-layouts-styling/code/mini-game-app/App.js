@@ -24,12 +24,11 @@ function App() {
     "open-sans": require("./assets/fonts/OpenSans-Regular.ttf"),
     "open-sans-bold": require("./assets/fonts/OpenSans-Bold.ttf"),
   });
-
   if (!fontsLoaded) {
     return <AppLoading />;
   }
 
-  // Handler Functions
+  //Functions
   function pickedNumberHandler(pickedNumber) {
     setUserNumber(pickedNumber);
     setIsGameOver(false);
@@ -44,15 +43,13 @@ function App() {
     setRounds(0);
   }
 
-  //App Logic
+  //App Logic to Render Different Screens
   let screen = <StartGameScreen onPickNumber={pickedNumberHandler} />;
   if (userNumber) {
     screen = (
       <GameScreen userNumber={userNumber} onGameOver={gameOverHandler} />
     );
   }
-
-  //Logic to Render Game Over Screen
   if (isGameOver && userNumber) {
     screen = (
       <GameOverScreen

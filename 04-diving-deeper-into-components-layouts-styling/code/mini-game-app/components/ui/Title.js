@@ -24,5 +24,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 24,
     fontFamily: "open-sans-bold",
+    maxWidth: "80%",
+    width: 300,
   },
 });
